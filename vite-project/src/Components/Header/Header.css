@@ -1,0 +1,8 @@
+.nav_logo {
+    position: fixed;
+    left: 20px;
+    width: 80px;
+    object-fit: contain;
+    /* margin-left: 20px; */
+    /* height: 4rem; */
+}
