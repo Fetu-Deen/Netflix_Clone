@@ -30,8 +30,12 @@ function Header() {
             <li>
               <NotificationsNoneIcon />
             </li>
-            <li><AccountBoxIcon/></li>
-            <li><ArrowDropDownIcon/></li>
+            <li>
+              <AccountBoxIcon />
+            </li>
+            <li>
+              <ArrowDropDownIcon />
+            </li>
           </ul>
         </div>
       </div>
