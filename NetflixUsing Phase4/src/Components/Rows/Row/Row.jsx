@@ -5,6 +5,7 @@ import YouTube from "react-youtube";
 import movieTrailer from "movie-trailer";
 
 const base_url = "https://image.tmdb.org/t/p/original/";
+
 function Row({ title, fetchUrl, isLargeRow }) {
   const [movies, setMovies] = useState([]);
   const [trailerUrl, setTrailerUrl] = useState("");
@@ -27,6 +28,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
       autoplay: 1,
     },
   };
+
   const handleClick = (movie) => {
     if (trailerUrl) {
       setTrailerUrl("");

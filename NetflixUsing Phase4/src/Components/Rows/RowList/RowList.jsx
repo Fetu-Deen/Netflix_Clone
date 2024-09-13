@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "../Row/Row";
 import requests from "../../../utils/requests";
-import "./RowList.css"
+import "./RowList.css";
 function RowList() {
   return (
     <div className="app">

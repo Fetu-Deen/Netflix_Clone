@@ -1,0 +1,75 @@
+.nav_logo {
+    left: 20px;
+    width: 80px;
+    object-fit: contain;
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+.header_outer_container {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    width: 100%;
+}
+
+.nav_black {
+    background-color: black;
+}
+
+.header_container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Mobile Styles */
+.header_left {
+    position: relative;
+    /* Required for dropdown positioning */
+}
+
+.header_left ul {
+    display: none;
+    /* Hide navigation links by default */
+    flex-direction: column;
+    /* Stack items vertically */
+    list-style: none;
+    padding: 0;
+    background-color: black;
+    /* Background for dropdown */
+    position: absolute;
+    /* Position dropdown */
+    top: 60px;
+    /* Adjust based on header height */
+    left: 0;
+    width: 100%;
+    /* Full width */
+    z-index: 2;
+    /* Ensure dropdown is above other content */
+}
+
+.header_left ul li {
+    padding: 10px;
+    /* Space between items */
+    cursor: pointer;
+}
+
+/* Dropdown Button */
+.dropdown_btn {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: block;
+}

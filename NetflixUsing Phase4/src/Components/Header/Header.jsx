@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./Header.css";
+// import "./New.css";
 import Netflix_Logo from "../../assets/Netflix_Logo_PMS.png";
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+
 function Header() {
   const [show, handleShow] = useState(false);
   useEffect(() => {
